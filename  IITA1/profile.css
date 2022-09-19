@@ -1,0 +1,86 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    background: white;
+}
+
+.name {
+    color: #454446;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+/* reference : w3shcools.com/howto */
+.topnav {
+    overflow: hidden;
+}
+/* style the links inside of the topnav */
+.topnav a{
+    float: left;
+    color: #454446;
+    text-align: center;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 17px;
+}
+/* hover: change the color when clikc */
+.topnav a:hover {
+    background-color: #454446;
+    color: white;
+}
+
+.content {
+    border: 3px solid #0fabab;
+    padding: 10px;
+    margin: 2%;
+}
+.content h2 {
+    padding: 0 20px 0 20px;
+}
+.content img {
+    width: 40%;
+    max-width: 500px;
+    height: auto;
+    padding: 20px;
+    position: relative;
+    float: left;
+}
+.content p {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    min-width: 400px;
+}
+.content ul li {
+    padding: 5px;
+    margin-left: 20%;
+}
+.content a {
+    color:rgb(25, 205, 205);
+    text-decoration: none;
+}
+#big5 {
+    border-collapse: collapse;
+    width: 100%;
+}
+#big5 td, #big5 th {
+    border: 2px solid #696867;
+    padding: 10px;
+    width: 20%
+}
+
+#big5 th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #696867;
+    color: white;
+}
+.footer {
+    text-align: center;
+    width: 100%;
+    bottom: 10px;
+    left: 0;
+}
